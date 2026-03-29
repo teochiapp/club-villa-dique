@@ -1,0 +1,37 @@
+{
+  "kind": "collectionType",
+  "collectionName": "jugadores",
+  "info": {
+    "singularName": "jugador",
+    "pluralName": "jugadores",
+    "displayName": "Jugadores"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Nombre": {
+      "type": "string"
+    },
+    "Apellido": {
+      "type": "string"
+    },
+    "Portada": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Camiseta": {
+      "type": "string"
+    },
+    "Posicion": {
+      "type": "string"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "partidos",
+  "info": {
+    "singularName": "partido",
+    "pluralName": "partidos",
+    "displayName": "Partidos"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Contrincante": {
+      "type": "string"
+    },
+    "Logo": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ]
+    },
+    "Resultado": {
+      "type": "string"
+    }
+  }
+}
